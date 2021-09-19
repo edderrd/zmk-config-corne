@@ -47,13 +47,13 @@
                 raise_layer {
 // -----------------------------------------------------------------------------------------
 // |  ESC |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
-// |      |     |     |     |     |     |   |  -  |  =  |  {  |  }  |  \  |  `   |
-// | SHFT |     |     |     |     |     |   |  _  |  +  |  [  |  ]  | "|" |  ~   |
+// |      |     |     |     |     |     |   |  -  |  =  |  {  |  }  | "|" |  `   |
+// | SHFT |     |     |     |     |     |   |  _  |  +  |  [  |  ]  |  \  |  ~   |
 //                    | GUI | ADJ | ENT |   | SPC | ADJ | ALT |
                         bindings = <
    &kp  ESC  &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT   &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR &kp BSPC
-   &trans &trans &trans &trans &trans &trans               &kp MINUS &kp EQUAL &kp LBRC &kp RBRC  &kp BSLH &kp GRAVE
-   &kp LSHIFT &trans &trans &trans &trans &trans           &kp UNDER &kp PLUS  &kp LBKT &kp RBKT &kp PIPE &kp TILDE
+   &trans &trans &trans &trans &trans &trans               &kp MINUS &kp EQUAL &kp LBRC &kp RBRC  &kp PIPE &kp GRAVE
+   &kp LSHIFT &trans &trans &trans &trans &trans           &kp UNDER &kp PLUS  &kp LBKT &kp RBKT &kp BSLH &kp TILDE
                     	           &kp LGUI &mo 3 &kp RET  &kp SPACE  &trans  &kp RALT
                         >;
                 };
